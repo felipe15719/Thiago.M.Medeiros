@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    background-color:#364dcc;
+    background: rgb(0,212,255);
+background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(38,31,150,1) 0%, rgba(54,77,204,1) 37%, rgba(4,130,201,1) 68%, rgba(7,127,201,1) 72%);
+}
+
+.avatar{
+    width: 90px;
+    border-radius: 50px;
+    border:3px solid white;
+    box-shadow: 0  0   20px rgba(255, 255, 255, 0.931);
+}
+
+h1{
+    
+    font-family: 'Zen Loop', cursive;
+    font-weight: 200;
+    font-size: 44px;
+    margin-bottom: 2px;
+}
+
+h2{
+   font-weight: 100;
+   font-size: 20px;
+
+  
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 35px 0;
+    list-style: none;
+}
+
+.social img{
+    width: 33px;
+}
+/******  fim / links de sociais ******* */
+
+.links-list{
+    
+    list-style: none;
+    
+
+}
+
+.links-list li{
+    margin: 10px 20px;
+}
+
+.links-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 14px;
+    background-color: white;
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+   border:2px solid white;
+    box-shadow: 0 0 20px white;
+}
+.links-list li a span{
+  display: block;
+  color:#364dcc;
+  margin-top:11px;
+  font-size: 15px;
+
+}
+.links-list-1 {
+    list-style: none;
+    text-align: center;
+    margin-top: 45px;
+  
+} 
+.links-list-1 li{
+    margin: 10px 20px;
+
+}
+
+.links-list-1 li a{
+    display: block;
+    font-size: 20px;
+    border-radius: 14px;
+    background-color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    color:black;
+}
+.links-list-1 li a span{
+    display: block;
+    color: #364dcc;
+    margin-top: 11px;
+    font-size: 15px;
+
+}
